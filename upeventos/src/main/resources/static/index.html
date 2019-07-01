@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://kit.fontawesome.com/93d22317b5.js"></script>
+        <title>Up Eventos</title>
+        <script src="js/EventoView.js"></script>
+        <script>
+
+            function init() {
+                let eventoView= new EventoView(document.body);
+            }
+            window.addEventListener("load",init);
+        </script>
+    </head>
+    <body>
+      <div class="title-box">
+        <label for="">Up Eventos</label>
+      </div>
+
+      <div class="search-box">
+        <input class="search-txt" type="text" name="" placeholder="O que você gosta de fazer?" id="temas">
+        <a class="search-btn" href="#" id="buscar">
+          <i class="fas fa-search" id="icone"></i>
+        </a>
+      </div>
+    </body>
+</html>
